@@ -10,9 +10,11 @@ import PropTypes from "prop-types"
 import "./bootstrap.min.css"
 import "./layout.css"
 import Footer from './Reusable/Footer';
+import Navbar from './Reusable/Navbar';
 
 const Layout =({children}) =>(
   <>
+  <Navbar />
   {children}
   <Footer />
   </>
